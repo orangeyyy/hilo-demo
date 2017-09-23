@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/xiayang/git/nvm/versions/node/v6.9.4/bin/node',
+1 verbose cli   '/Users/xiayang/git/nvm/versions/node/v6.9.4/bin/npm',
+1 verbose cli   'start' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.4
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle hilo-demo@1.0.0~prestart: hilo-demo@1.0.0
+6 silly lifecycle hilo-demo@1.0.0~prestart: no script for prestart, continuing
+7 info lifecycle hilo-demo@1.0.0~start: hilo-demo@1.0.0
+8 verbose lifecycle hilo-demo@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle hilo-demo@1.0.0~start: PATH: /Users/xiayang/git/nvm/versions/node/v6.9.4/lib/node_modules/npm/bin/node-gyp-bin:/Users/xiayang/git/hilo-demo/node_modules/.bin:/Users/xiayang/git/nvm/versions/node/v6.9.4/bin:/Users/xiayang/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/xiayang/bin
+10 verbose lifecycle hilo-demo@1.0.0~start: CWD: /Users/xiayang/git/hilo-demo
+11 silly lifecycle hilo-demo@1.0.0~start: Args: [ '-c',
+11 silly lifecycle   'cp -r lib build && cp -r imgs build && webpack-dev-server --config webpack.config.js' ]
+12 silly lifecycle hilo-demo@1.0.0~start: Returned: code: 1  signal: null
+13 info lifecycle hilo-demo@1.0.0~start: Failed to exec start script
+14 verbose stack Error: hilo-demo@1.0.0 start: `cp -r lib build && cp -r imgs build && webpack-dev-server --config webpack.config.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/Users/xiayang/git/nvm/versions/node/v6.9.4/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/Users/xiayang/git/nvm/versions/node/v6.9.4/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid hilo-demo@1.0.0
+16 verbose cwd /Users/xiayang/git/hilo-demo
+17 error Darwin 16.4.0
+18 error argv "/Users/xiayang/git/nvm/versions/node/v6.9.4/bin/node" "/Users/xiayang/git/nvm/versions/node/v6.9.4/bin/npm" "start"
+19 error node v6.9.4
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error hilo-demo@1.0.0 start: `cp -r lib build && cp -r imgs build && webpack-dev-server --config webpack.config.js`
+22 error Exit status 1
+23 error Failed at the hilo-demo@1.0.0 start script 'cp -r lib build && cp -r imgs build && webpack-dev-server --config webpack.config.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the hilo-demo package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     cp -r lib build && cp -r imgs build && webpack-dev-server --config webpack.config.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs hilo-demo
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls hilo-demo
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
